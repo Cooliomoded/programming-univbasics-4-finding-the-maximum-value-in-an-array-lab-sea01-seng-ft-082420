@@ -5,5 +5,6 @@ def find_max_value(array)
     array.delete[i]
   else array.delete[i - 1]
     end
+  end
   puts array
 end
